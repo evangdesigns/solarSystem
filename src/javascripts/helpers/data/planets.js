@@ -65,4 +65,6 @@ const planets = [
   },
 ];
 
-export default { planets };
+const getPlanets = () => planets;
+
+export default { getPlanets };
