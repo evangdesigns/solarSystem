@@ -1,12 +1,19 @@
 import $ from 'jquery';
+import pd from '../planetDisplay/planetDisplay';
 import printToDom from '../../helpers/utilities';
 import './planetCards.scss';
 
 const toggleHide = (e) => {
   const planet = e.currentTarget.id;
-  console.log(planet);
-  $(`#${planet}`).toggle('hide');
-  $(`#${planet.split('-title')[0]}-image`).toggle('hide');
+  const planetTitle = `#${planet}-title`;
+  const planetImg = `#${planet}-image`;
+  if ($(planetTitle).hasClass('hide')) {
+    $(planetTitle).removeClass('hide');
+    $(planetImg).addClass('hide');
+  } else if ($(planetImg).hasClass('hide')) {
+    $(planetTitle).addClass('hide');
+    $(planetImg).removeClass('hide');
+  }
 };
 
 const cardPrinter = (planets) => {
@@ -27,7 +34,8 @@ const cardPrinter = (planets) => {
     `;
   });
   printToDom.printToDom('planets', domString);
-  $('.planetName').hover(toggleHide);
+  $('.planetCard').hover(toggleHide);
+  $('.planetCard').click(pd.printPlanet);
 };
 
 export default { cardPrinter };

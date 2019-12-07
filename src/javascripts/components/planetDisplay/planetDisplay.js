@@ -1,7 +1,8 @@
 import './planetDisplay.scss';
 
-const printPlanet = () => {
-  console.log('this is where the individual planet is diplayed');
+const printPlanet = (e) => {
+  const planet = e.currentTarget.id;
+  console.log(planet);
 };
 
 export default { printPlanet };
