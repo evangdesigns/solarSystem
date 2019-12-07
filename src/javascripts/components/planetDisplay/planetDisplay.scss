@@ -1,0 +1,21 @@
+.closePlanet {
+  font-family: Arial, Helvetica, sans-serif;
+  position:relative;
+  z-index: 20;
+  right: 12px;
+  width:30px;
+  float: right;
+  font-size:30px;
+  font-weight:700;
+  &:hover{
+    color: #ff0000;
+    text-decoration:none;
+  }
+}
+.planetDisplay {
+  margin: 20px 0 0;
+  width: 75%;
+  img{
+    height:400px;
+  }
+}

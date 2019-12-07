@@ -2,6 +2,12 @@
 body {
     background-color: black;
 }
+p {
+font-size:14pt;
+}
+.hide {
+    display:none !important;
+}
 #planets {
     width:100%;
     margin: 10px;
