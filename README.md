@@ -13,13 +13,13 @@ Solar System is an application that allows users to search and learn about the p
 
 ## Screenshots
 Display on page load:
-![on load](#)
+![on load](https://github.com/evangdesigns/solarSystem/blob/master/Screenshots/landing%20page.png?raw=true)
 
 Individual Planet Display:
-![planet displayed](#)
+![planet displayed](https://github.com/evangdesigns/solarSystem/blob/master/Screenshots/planet%20display.png?raw=true)
 
 Search Function:
-![search function](#)
+![search function](https://github.com/evangdesigns/solarSystem/blob/master/Screenshots/search.png?raw=true)
 
 
 
