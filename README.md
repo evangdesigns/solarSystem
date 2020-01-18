@@ -32,7 +32,7 @@ Search Function:
 * In your browser, navigate to `https://localhost:8080`;
 
 ## Demo
-[Preview the app here!](#)
+[Preview the app here!](https://solarsystem-18df9.firebaseapp.com/)
 
 ## Contributors
 
